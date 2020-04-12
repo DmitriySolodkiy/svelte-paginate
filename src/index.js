@@ -1,4 +1,6 @@
-export { default as paginate } from './paginate.js'
-export { default as PaginationNav } from './PaginationNav.svelte'
-export { default as LightPaginationNav } from './LightPaginationNav.svelte'
-export { default as DarkPaginationNav } from './DarkPaginationNav.svelte'
+import paginate from "./paginate";
+import PaginationNav from './PaginationNav.svelte';
+import LightPaginationNav from './LightPaginationNav.svelte'
+import DarkPaginationNav from './DarkPaginationNav.svelte'
+
+export { paginate, PaginationNav, DarkPaginationNav, LightPaginationNav };
